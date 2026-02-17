@@ -16,9 +16,9 @@ let islog=false//boolean datatype
 4)null->return  object(empty value)
 5)undefined*/
 
-console.log(typeof age)
-console.log(typeof name);
-console.log(typeof null);
-console.log(typeof undefined);
+console.log(typeof age)//output is number
+console.log(typeof name);//output is string
+console.log(typeof null);//output is object
+console.log(typeof undefined);//output is undefined
 
 
