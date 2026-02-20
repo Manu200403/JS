@@ -26,3 +26,30 @@ console.log( bolleanlogin);
 "Manu"=>true
 */
 
+
+//operations normal bodmas 
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2/2);
+console.log(2%2);
+
+let s1="Hello"
+let s2="World"
+let s3=s1 +" "+ s2
+console.log(s3);
+
+console.log(1+2);
+
+console.log("1"+2);
+
+console.log(1+"2");
+
+console.log("1"+2+2);
+
+console.log(1+2+"2");//exception chk ECMAScript
+
+
+let count=100
+count++
+console.log(count);
