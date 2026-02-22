@@ -55,3 +55,7 @@ let myobj={
  
  //typeof all non-primitive data is function object
  
+ //storageee
+ //primitive datatypes-stack(copy)
+ //Non-primitive datatype-heap(refernce)
+
