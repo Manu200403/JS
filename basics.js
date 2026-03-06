@@ -66,4 +66,38 @@ function login(username )
     return `${username} just logged in`
 }
 
-console.log(login(''));
+console.log(login(''));//output= just logged in this appears as we passed only ' ' which is empty
+
+//rest operator(... this can aslo be spread operaror depends on usecase)
+function claculatecartprice(...num1)
+{
+    return num1;
+}
+console.log(200,500,30);
+
+
+//pass objeects to functions
+
+const user={
+    name:"Manu",
+    price:100
+}
+
+function handleobj(anyobject)
+{
+    console.log(`Username is ${anyobject.name} and price is ${anyobject.price}`);
+    
+}
+
+handleobj(user)
+
+
+//pass arrays to function
+const mynewarray=[200,300,400.500]
+
+function returnsecvalue(getArray)
+{
+    return getArray[1];
+}
+
+console.log(returnsecvalue(mynewarray));
